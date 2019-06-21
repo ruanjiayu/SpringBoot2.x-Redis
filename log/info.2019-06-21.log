@@ -282,3 +282,33 @@ ketech - 2019-06-21 16:17:09 - Starting without optional epoll library
 ketech - 2019-06-21 16:17:09 - Starting without optional kqueue library
 ketech - 2019-06-21 16:17:10 - 获得的用户信息是:UsersDTO(id=1, username=tom, password=1, permission=add)
 ketech - 2019-06-21 16:17:10 - Shutting down ExecutorService 'applicationTaskExecutor'
+ketech - 2019-06-21 17:14:03 - Starting UserServiceTest on DESKTOP-PVMLU4I with PID 28764 (started by admin in D:\IT_study\all_demo\springboot-redis)
+ketech - 2019-06-21 17:14:03 - The following profiles are active: dev
+ketech - 2019-06-21 17:14:04 - Multiple Spring Data modules found, entering strict repository configuration mode!
+ketech - 2019-06-21 17:14:04 - Bootstrapping Spring Data repositories in DEFAULT mode.
+ketech - 2019-06-21 17:14:04 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+ketech - 2019-06-21 17:14:05 - Bean 'redisConfig' of type [com.jing.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$39c25c5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ketech - 2019-06-21 17:14:05 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb4cf2eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ketech - 2019-06-21 17:14:07 - Initializing ExecutorService 'applicationTaskExecutor'
+ketech - 2019-06-21 17:14:09 - Started UserServiceTest in 7.038 seconds (JVM running for 8.703)
+ketech - 2019-06-21 17:14:09 - Starting without optional epoll library
+ketech - 2019-06-21 17:14:09 - Starting without optional kqueue library
+ketech - 2019-06-21 17:14:10 - HikariPool-1 - Starting...
+ketech - 2019-06-21 17:14:11 - HikariPool-1 - Start completed.
+ketech - 2019-06-21 17:14:11 - UsersDTO(id=1, username=tom, password=1, permission=add)
+ketech - 2019-06-21 17:14:12 - 获得的用户信息是:UsersDTO(id=1, username=tom, password=1, permission=add)
+ketech - 2019-06-21 17:14:12 - Shutting down ExecutorService 'applicationTaskExecutor'
+ketech - 2019-06-21 17:14:13 - HikariPool-1 - Shutdown initiated...
+ketech - 2019-06-21 17:14:13 - HikariPool-1 - Shutdown completed.
+ketech - 2019-06-21 17:14:23 - Starting UserServiceTest on DESKTOP-PVMLU4I with PID 6584 (started by admin in D:\IT_study\all_demo\springboot-redis)
+ketech - 2019-06-21 17:14:23 - The following profiles are active: dev
+ketech - 2019-06-21 17:14:25 - Multiple Spring Data modules found, entering strict repository configuration mode!
+ketech - 2019-06-21 17:14:25 - Bootstrapping Spring Data repositories in DEFAULT mode.
+ketech - 2019-06-21 17:14:25 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+ketech - 2019-06-21 17:14:25 - Bean 'redisConfig' of type [com.jing.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$39c25c5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ketech - 2019-06-21 17:14:25 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb4cf2eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ketech - 2019-06-21 17:14:28 - Initializing ExecutorService 'applicationTaskExecutor'
+ketech - 2019-06-21 17:14:29 - Started UserServiceTest in 6.959 seconds (JVM running for 8.411)
+ketech - 2019-06-21 17:14:30 - Starting without optional epoll library
+ketech - 2019-06-21 17:14:30 - Starting without optional kqueue library
+ketech - 2019-06-21 17:14:31 - Shutting down ExecutorService 'applicationTaskExecutor'
