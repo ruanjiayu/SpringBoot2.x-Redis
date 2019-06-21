@@ -14,8 +14,8 @@ HELP.md
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
 log
+*.iml
 *.ipr
 
 ### NetBeans ###
