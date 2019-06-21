@@ -1,0 +1,41 @@
+#ruanjiayu-datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.183:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+  redis:
+    #数据库索引
+    database: 1
+    host: 192.168.10.11
+    port: 6379
+    password:
+    jedis:
+      pool:
+        #最大连接数
+        max-active: 100
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: 2000
+        #最大空闲
+        max-idle: 500
+        #最小空闲
+        min-idle: 8
+    #连接超时时间
+    timeout: 5000
+
+jwt:
+  # token 长过期时间 2 小时
+  expirationLong: 7200000
+
+## 打印mybatis的语句
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+## 打印指定的目录下的mysql语句，建议使用这个
+#logging:
+#  level:
+#    com.jing.modules.mapper:
+
+

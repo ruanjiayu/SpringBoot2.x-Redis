@@ -1,0 +1,14 @@
+server:
+  port: 8002
+
+#mybatis
+mybatis:
+  ###表示xml文件所在的位置
+  mapper-locations: classpath*:com.jing.modules/*/*.xml
+  ####在表示xml文件内的使用实体类名来进行实体类的映射，不需要在使用包名+类名，不过本人一般不开启这个，哈哈哈哈
+  type-aliases-package: com.jing.modules.po
+
+  #### 指定运行的配置文件
+spring:
+  profiles:
+    active: dev
